@@ -1,0 +1,51 @@
+:root {
+    --border-color: var(--purple-9);
+    --text-color: var(--purple-9);
+    --bg-1-color: var(--gray-6);
+    --bg-2-color: var(--gray-3);
+    --bg-3-color: var(--gray-1);
+    --contrast-color: var(--yellow-9);
+    --note-text-color-1: var(--gray-10);
+    --note-text-color-2: var(--gray-10);
+    --note-text-color-3: var(--gray-10);
+    --note-text-color-4: var(--gray-10);
+    --note-border-color-1: var(--red-5);
+    --note-border-color-2: var(--purple-5);
+    --note-border-color-3: var(--cyan-5);
+    --note-border-color-4: var(--lime-5);
+    --note-bg-color-1: var(--red-5);
+    --note-bg-color-2: var(--purple-5);
+    --note-bg-color-3: var(--cyan-5);
+    --note-bg-color-4: var(--lime-5);
+    
+    --note-active-text-color: var(--orange-5);
+    --note-active-bg-color: var(--gray-1);
+    --note-active-border-color: var(--orange-5);
+
+}
+
+
+[data-theme="dark"] {
+    --border-color: var(--cyan-2);
+    --text-color: var(--cyan-0);
+    --bg-1-color: var(--gray-4);
+    --bg-2-color: var(--gray-7);
+    --bg-3-color: var(--gray-9);
+    --contrast-color: var(--yellow-3);
+    --note-text-color-1: var(--red-3);
+    --note-text-color-2: var(--purple-3);
+    --note-text-color-3: var(--cyan-3);
+    --note-text-color-4: var(--lime-3);
+    --note-border-color-1: var(--red-3);
+    --note-border-color-2: var(--purple-3);
+    --note-border-color-3: var(--cyan-3);
+    --note-border-color-4: var(--lime-3);
+    --note-bg-color-1: var(--gray-10);
+    --note-bg-color-2: var(--gray-10);
+    --note-bg-color-3: var(--gray-10);
+    --note-bg-color-4: var(--gray-10);
+
+    --note-active-text-color: var(--orange-5);
+    --note-active-bg-color: var(--gray-10);
+    --note-active-border-color: var(--orange-5);
+}

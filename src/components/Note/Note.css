@@ -1,0 +1,54 @@
+.note {
+    cursor: pointer;
+    opacity: 0.9;
+    position: absolute;
+    font-weight: bold;
+    min-width: 1rem;
+    width: 80%;
+    aspect-ratio: 1;
+    max-width: 40px;
+    max-height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.note:hover {
+    opacity: 1;
+    background-color: var(--note-active-bg-color);
+    color: var(--note-active-text-color);
+    border-color: var(--note-active-border-color);
+    transform: scale(1.15);
+}
+
+.note_2 {
+    background-color: var(--note-bg-color-1);
+    color: var(--note-text-color-1);
+    border-color: var(--note-border-color-1);
+}
+.note_3 {
+    background-color: var(--note-bg-color-2);
+    color: var(--note-text-color-2);
+    border-color: var(--note-border-color-2);
+}
+
+.note_4 {
+    background-color: var(--note-bg-color-3);
+    color: var(--note-text-color-3);
+    border-color: var(--note-border-color-3);
+}
+
+.note_5 {
+    background-color: var(--note-bg-color-4);
+    color: var(--note-text-color-4);
+    border-color: var(--note-border-color-4);
+}
+
+@media (max-width: 768px) {
+    .note {
+       
+    }
+}

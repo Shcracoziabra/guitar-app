@@ -1,0 +1,10 @@
+.fretboard {
+    margin: 20px auto 0;
+    width: fit-content;
+    min-width: 550px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-radius: 10px;
+}
+

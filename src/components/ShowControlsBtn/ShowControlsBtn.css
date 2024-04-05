@@ -1,0 +1,33 @@
+.show-btn {
+  position: absolute;
+  left: 0;
+  margin-left: 1rem;
+  justify-self: start;
+  font-size: 1rem;
+  border-style: solid;
+  border-color: var(--contrast-color);
+  border-radius: var(--radius-blob-1);
+  width: 100px;
+  height: 60px;
+  font-weight: bold;
+  background-color: var(--contrast-color);
+  color: var(--bg-3-color);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+  
+.show-btn_active {
+  color: var(--contrast-color)!important;
+  background-color: var(--bg-3-color)!important;
+  border-color: var(--contrast-color)!important;
+}
+
+.show-btn:active {
+  transform: translateY(3px);
+}
+
+@media (max-width: 768px) {
+  .btn {
+      padding: var(--size-1);
+  }
+}

@@ -1,0 +1,29 @@
+.btn {
+  font-size: 1rem;
+  border-style: solid;
+  border-color: var(--border-color);
+  border-radius: 5px;
+  min-width: 50px;
+  padding: var(--size-2);
+  background-color: transparent;
+  text-transform: uppercase;
+  color: var(--text-color);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+  
+.btn_active {
+  color: var(--bg-3-color)!important;
+  background-color: var(--contrast-color)!important;
+  border-color: var(--contrast-color)!important;
+  }
+
+.btn:active {
+  transform: translateY(3px);
+}
+
+@media (max-width: 768px) {
+  .btn {
+      padding: var(--size-1);
+  }
+}

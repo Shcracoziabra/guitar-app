@@ -1,0 +1,59 @@
+@import "open-props/open-props.min.css";
+@import './var.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0px, auto)) max-content;
+  justify-content: stretch;
+  justify-items: center;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 550px;
+  width: 100%;
+  display: grid;
+  row-gap: 20px;
+  align-content: start;
+  justify-content: stretch;
+  background-color: var(--bg-3-color);
+  color: var(--text-color);
+  min-height: 100vH;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  width: 100%; 
+}
+
+h1 {
+  font-size: 2rem;
+  max-inline-size: max-content;
+}
+
+.btn-row {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: max-content;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  #root {
+    gap: 1rem;
+  }
+}
