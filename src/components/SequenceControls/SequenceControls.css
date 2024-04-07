@@ -42,7 +42,7 @@
     transform:  translateX(-50%) rotate(-45deg);
 }
 
-@media (max-width: 768px) {
+@media (orientation: landscape) or (max-width: 768px){
     .sequence-controls {
         background-color: var(--bg-3-color);
         position: absolute;
