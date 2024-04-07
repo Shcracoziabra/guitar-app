@@ -57,3 +57,42 @@ h1 {
     gap: 1rem;
   }
 }
+
+.overlay {
+  display: none;
+  font-size: 2rem;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: var(--gradient-23);
+  color: #fff;
+  justify-items: center;
+  align-items: center;
+}
+
+.overlay::before {
+  content:'';
+  position: absolute;
+  top: 10%;
+  height: 300px;
+  width: 150px;
+  border-radius: var(--radius-3);
+  border: 4px solid #fff;
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+  .overlay {
+    display: grid;
+  }
+  .overlay::before {
+    animation: orientate 3s infinite;
+  }
+}
+@keyframes orientate {
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+}
