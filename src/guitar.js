@@ -268,7 +268,9 @@ class Guitar {
             gainNode.connect(audioContext.destination);
             oscillator.start(startTime);
             oscillator.stop(endTime);
-            oscillator.disconnect();
+            oscillator.onend = () => {
+                gainNode.disconnect();
+            }
         }
     }
 }
